@@ -1,0 +1,581 @@
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
+
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.p-r {
+  position: relative;
+}
+
+.color-a {
+  text-decoration: none;
+  color: #0078ff;
+}
+
+.color-d {
+  color: #f5f5f5;
+}
+
+.color-text-a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.box-shadow, .card-blog, .portafolio-caja, .caja-servicio, .paralax-mf {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow-a, .button:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*--/ SECCIONES /--*/
+
+.sect-pt4 {
+  padding-top: 4rem;
+}
+
+.sect-mt4 {
+  margin-top: 4rem;
+}
+
+/*--/ Title skills /--*/
+.titulo-skills {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
+/*--/ TITULO A /--*/
+.title-box {
+  margin-bottom: 4rem;
+}
+
+.titulo-a {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitulo-a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.line-medio {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
+/*--/ TITULOS /--*/
+.titulo-caja-2 {
+  margin-bottom: 3rem;
+}
+
+.titulo {
+  font-size: 2rem;
+  position: relative;
+}
+.titulo:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+.titulo{
+  animation: showtitulo 500ms linear;
+}
+
+@keyframes showtitulo{ /*el icono vendra desde arriba */
+  from{
+      transform: translateY(-200%); /*el icono se ira hacia afuera */
+  }
+  to{
+      transform: translateY(0%);
+  }
+}
+
+/*------/ CAJAS /------*/
+.caja-sombras {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .caja-sombras {
+    padding: 3rem;
+  }
+}
+
+/*------/ REDES SOCIALES /------*/
+.socials {
+  padding: 1.5rem 0;
+}
+.socials ul li {
+  display: inline-block;
+}
+.socials .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+.socials .ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+
+.list-ico, .socials ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-ico {
+  line-height: 2;
+}
+.list-ico span {
+  color: #0078ff;
+  margin-right: 10px;
+}
+
+/*------/ ICONO CIRCULO /------*/
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+
+
+/*------/ BOTON /------*/
+.button {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+.button:focus {
+  outline: 0;
+}
+.button:hover {
+  background-color: #0062d3;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.button-a {
+  text-decoration: none;
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #cde1f8;
+}
+
+.button-big {
+  padding: 0.9rem 2.3rem;
+  font-size: 1.2rem;
+}
+
+.button-rouded {
+  border-radius: 5rem;
+}
+
+/*--------------------------------------------------------------
+ HEADER
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#header .logo a {
+  color: #fff;
+}
+#header .logo img {
+  max-height: 40px;
+}
+#header.header-scrolled {
+  background: rgb(98 98 98 / 35%);
+  padding: 12px 0;
+}
+
+/*--------------------------------------------------------------
+# MENU PRINCIPAL
+--------------------------------------------------------------*/
+
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar > ul > li {
+  white-space: nowrap;
+  padding: 10px 0 10px 30px;
+}
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0.4px;
+  position: relative;
+  text-transform: uppercase;
+}
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+  visibility: visible;
+  width: 80%;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #fff;
+}
+
+
+@media (max-width: 991px) {
+  .navbar ul {
+    display: none;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# SECCION BANNER IMAGEN PRINCIPAL
+--------------------------------------------------------------*/
+.imagen-banner {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.imagen-banner .imagen-banner-contenido {
+  text-align: center;
+  position: absolute;
+}
+.imagen-banner .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+.imagen-banner .titulo-banner {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .imagen-banner .titulo-banner {
+    font-size: 4.5rem;
+  }
+}
+.imagen-banner .banner-subtitulo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .imagen-banner .banner-subtitulo {
+    font-size: 2.5rem;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# SOBRE MI
+--------------------------------------------------------------*/
+.sobre-mi-clase .caja-sombras {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.sobre-mi-clase .sobre-mi-imagen {
+  margin-bottom: 2rem;
+}
+.sobre-mi-clase .sobre-mi-imagen img {
+  margin-left: 10px;
+}
+@media (min-width: 767px) {
+  .sobre-mi-clase {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.skills span {
+  color: #4e4e4e;
+}
+.skills .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+.skills .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.caja-servicio {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.caja-servicio:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.caja-servicio .icono-servicio {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+.caja-servicio .ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.caja-servicio .ico-circle i {
+  line-height: 0;
+  font-size: 40px;
+}
+.caja-servicio .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.caja-servicio .s-description {
+  color: #4e4e4e;
+}
+
+/*--------------------------------------------------------------
+# PORTAFOLIO
+--------------------------------------------------------------*/
+.portafolio-caja {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+.portafolio-caja:hover img {
+  transform: scale(1.3);
+}
+
+.portafolio-img {
+  display: block;
+  overflow: hidden;
+}
+.portafolio-img img {
+  transition: all 1s;
+}
+
+.portafolio-contenido {
+  padding: 2rem 3% 1rem 4%;
+}
+.portafolio-contenido .proyecto-descripcion {
+  color: #4e4e4e;
+  font-size: 0.8rem;
+}
+.portafolio-contenido .proyecto-descripcion .proyecto-categoria {
+  color: #0078ff;
+}
+.portafolio-contenido .w-like {
+  font-size: 2.5rem;
+  color: #0078ff;
+  float: right;
+}
+.portafolio-contenido .w-like a {
+  color: #0078ff;
+}
+.portafolio-contenido .w-like .num-like {
+  font-size: 0.7rem;
+}
+
+.titulo-proyecto {
+  font-size: 1.2rem;
+}
+
+.ver-pagina{
+  font-size: 14px;
+  color: #505050;
+  border-bottom: 1px solid;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.footer-paralax {
+  padding: 4rem 0 0 0;
+}
+
+/* .contact-mf {
+  margin-top: 1rem;
+} */
+@media (min-width: 767px) {
+  .contact-mf{
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.formulario-contacto input, .formulario-contacto-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.formulario-contacto input:focus, .formulario-contacto textarea:focus {
+  border-color: #0078ff;
+}
+.formulario-contacto input {
+  padding: 10px 15px;
+}
+.formulario-contacto textarea {
+  padding: 12px 15px;
+  margin-bottom: 0;
+}
+.formulario-contacto button[type=submit] {
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+.formulario-contacto button[type=submit]:hover {
+  background: #3393ff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: #0062d3;
+}
+footer .copyright {
+  margin-bottom: 0.3rem;
+}
+footer .creditos {
+  margin-bottom: 0;
+}
+footer .creditos a {
+  color: #fff;
+}

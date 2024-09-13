@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/* HEADER  */
+header{
+    width: 100%;
+    background-color: #033249;
+}
+#menu-principal{
+    width: 85%;
+    margin: 0px auto;
+    height: 110px; 
+    color:#FFFFFF;
+}
+#logo{
+    float: left;
+    width: 12%;
+    height: inherit;
+}
+.logo-img{
+    width: 130px;
+    height: 110px;
+}
+#menu{
+    float: left;
+    width: 73%;
+    text-align: center;
+    height: 110px;
+}
+#menu ul li{
+    font-size: 19px;
+    display: inline-block;
+    margin: 0px 27px 0px 8px;
+    letter-spacing: 1px;
+    line-height: 110px;
+}
+#menu ul li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 200ms;
+    font-weight: 500;
+}
+
+#menu ul li a:hover{
+    color: #FF8038;
+    transform: scale(1.2, 1.2);
+}
+#iconos{
+    float: right;
+    width: 15%;
+    line-height: 135px;
+    text-align: center;
+    height: inherit;
+}
+.icon{
+    width: 36px;
+    margin: 0px 2px 0px 2px;
+    cursor: pointer;
+}
+
+/* PRIMER CONTENIDO */
+.quienes-somos{
+    width: 80%;
+    margin: 65px auto 50px;
+    display: flex;
+    align-items: center;
+    animation: imagen .5s ease-in-out;
+}
+
+.contenido-quienes-somos{
+    margin-left: 20px;
+}
+
+.contenido-quienes-somos h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 33px;
+    letter-spacing: 1px;
+}
+.contenido-quienes-somos h2{
+    color: #033249;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img1{
+    width: 50%; 
+}
+.img1 img{
+    width: 400px;
+    height: 100%;
+}
+.descripcion{
+    font-size: 18px;
+    margin-top: 12px;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.imagen-banner{
+    width: 100%;
+    height: 316px;
+}
+
+.imagen-banner img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+/* SECCION NUESTRA TRAYECTORIA  */
+.nuestra-trayectoria{
+    background-color: #ebebeb;
+}
+.nuestra-trayectoria h2{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 49px;
+    font-family: arial;
+    padding-top: 88px;
+}
+.cuadro-trayectoria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 110px;
+    padding-bottom: 59px;
+}
+.contenido-experiencia{
+    border: 2px solid;
+    border-radius: 85px;
+    margin: 53px 78px;
+    padding: 38px;
+}
+.contenido-experiencia h1{
+    font-size: 54px;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+.contenido-experiencia > h5{
+    color: #FB7F38;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    font-family: arial;
+}
+.contenido-experiencia p{
+    color: #565656;
+    font-size: 17px;
+}
+.experiencia{
+    width: 50%;
+    text-align: center;
+}
+.experiencia-derecha{
+    width: 50%;
+    padding-left: 55px;
+}
+.contenedor-experiencias{
+    display: flex;
+}
+.icono-trayectoria img{
+    width: 80px;
+}
+.icono-trayectoria{
+    margin: 10px 32px 32px 0px;
+}
+.descripcion-icono span{
+    color: #FB7F38;
+}
+.descripcion-icono h1{
+    font-size: 43px;
+    font-family: arial;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.descripcion-icono p{
+    font-size: 20px;
+    color: #666666;
+}
+
+/* SECCION MISION Y VISION */
+.contenedor-mision-vision{
+    width: 100%;
+    display: flex;
+    padding: 80px 125px;
+    background-color: #F2F2F2;
+}
+
+.contenedor-mision-vision h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contenedor-mision-vision p{
+    text-align: justify;
+    font-size: 17px;
+    font-family: arial;
+    color: #444242;
+    letter-spacing: 1px;
+}
+
+.mision{
+    width: 50%;
+    margin-right: 35px;
+}
+
+.vision{
+    width: 50%;
+    margin-left: 35px;
+}
+
+
+/* FRASE E IMAGEN */
+.linea {
+    border-top: 1px solid black;
+    max-width: 177px;
+    margin: auto 27px;
+}
+.frase{
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 24%;
+    letter-spacing: 2px;
+}
+
+.imagen-casa-verde{
+    text-align: center;
+    margin: 60px 0px 108px 0px;
+}
+
+h3{
+    text-align: center;
+    font-size: 27px;
+    font-family: arial;
+    letter-spacing: 2px;
+    margin-top: 64px;
+}
+
+.preferirnos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 44px 132px 65px 132px;
+}
+.tarjeta{
+    width: 250px;
+    height: 320px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 12%);
+    margin: 15px auto;
+    padding: 31px;
+    text-align: justify;
+}
+
+.icono-preferirnos{
+    width: 70px;
+}
+.icono-preferirnos img{
+    width: inherit;
+}
+.tarjeta h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 19px 0px 12px;
+    font-size: 18px;
+}
+.tarjeta p{
+    color: #424242;
+    font-family: arial;
+    font-size: 15px;
+}
+
+
+
+/* FOOTER  */
+#footer{
+    height: 265px;
+    background-color: #033249;
+    display: flex;
+    justify-content: center;
+}
+.abajo{
+    height: 265px; 
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-abajo{
+    width: 14%;
+}
+.logo-imagen-abajo {
+    width: 100%;
+    height: 132px;
+}
+.imag-abajo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.contactanos {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-top: 18px;
+}
+.escribenos {
+    display: flex;
+    justify-content: center;
+    width: 27%;
+}
+.oficina {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-left: 21px;
+}
+.titulo{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.parrafo-footer{
+    color: #ffffff;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+
+@keyframes imagen{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

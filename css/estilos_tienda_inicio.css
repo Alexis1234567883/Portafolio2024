@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* MENU */
+.titulo-hacemos{
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.texto-menu:hover{ 
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transition: all 0.5s;
+    font-weight: bold;
+}
+#menu-principal li{
+    margin-right: 10px;
+}
+#menu-segundo ul{
+    text-decoration: none;
+    list-style: none;
+}
+.boton-buscar{
+    background-color: #8b8b8b;
+    color: white;
+    border-color: black;
+}
+.boton-buscar:hover{
+    background-color: #292929;
+    color: white;
+    border-color: black;
+}
+
+/* TARJETAS INFORMATIVAS */
+.tarjeta-informativa{
+    border: 2px solid #a5a5a5;
+    padding: 15px;
+}
+.icono-tarjeta-informativa img{
+    width: 65px;
+}
+.descripcion-tarjeta-informativa h4{
+    font-size: 19px;
+}
+
+
+/* SECCION PRODUCTOS - LO MAS NUEVO */
+.titulo-mas-nuevo{
+    margin-top: 50px;
+}
+
+/* CATEGORIAS */
+.contenedor-categorias-imagenes{
+    padding-top: 85px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+.seccion-categorias-imagenes img{
+    width: 100%;
+    height: 485px;
+}
+
+
+/* CONTENEDOR BOLETIN SUSCRIBIRSE */
+#contenedor-boletin{
+    background-color: #e1e1e1;
+}
+#boletin-informativo{
+    padding: 60px 160px;
+    background-color: #e1e1e1;
+}
+#boletin-informativo h3{
+    font-size: 32px;
+}
+#contenedor-email button{
+    color: #000000;
+    border-color: #000000;
+}
+#contenedor-email button:hover{
+    color: white;
+    background-color: #000000;
+}
+.barra-ingreso-email{
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* FOOTER */
+.seccion-pago{
+    padding-left: 55px;
+}
+.imagen-pago{
+    width: 84px;
+}
+.imagen-redes-sociales{
+    padding: 0px;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    #boletin-informativo {
+        padding: 60px 120px;
+    }
+ }
+
+
+@media (max-width: 992px) {
+    .seccion-categorias-imagenes img{
+        width: 100%;
+        height: 335px;
+    }
+
+    #boletin-informativo {
+        padding: 60px 40px;
+    }
+ }
+
+
+ @media (max-width: 768px) {
+    #imagen-responsive{
+        width: 100%;
+        height: 372px;
+    }
+
+    .seccion-pago {
+        padding-left: 17px;
+    }
+    .seccion-pago h5{
+        margin-top: 30px;
+    }
+    .seccion-categorias-imagenes img{
+        width: 100%;
+        height: 250px;
+    }
+    #boletin-informativo {
+        text-align: center;
+    }
+    #contenedor-email{
+        text-align: initial;
+    }
+    #barra-ingreso-email{
+        margin-left: 86px;
+    }
+    
+ }
+
+ @media (max-width: 576px) {
+
+    #imagen-responsive {
+        width: 100%;
+        height: 322px;
+    }
+
+    .seccion-categorias-imagenes{
+        text-align: center;
+    }
+    .seccion-categorias-imagenes img {
+        width: 72%;
+        height: 368px;
+    }
+
+    #barra-ingreso-email{
+        margin-left: 65px;
+    }
+    #boletin-informativo {
+        padding: 60px 8px;
+    }
+
+    .informacion{
+        text-align: center; 
+    }
+    .contactanos{
+        text-align: center;
+    }
+    .seccion-pago {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .medios-pago-iconos{
+        justify-content: center;
+    }
+ }
+
+
+ @media (max-width: 450px) {
+    #barra-ingreso-email{
+        margin-left: 44px;
+    }
+ }
+
+ @media (max-width: 380px) {
+
+    #boletin-informativo {
+        padding: 60px 3px;
+    }
+    #barra-ingreso-email{
+        margin-left: 26px;
+    }
+
+    .seccion-categorias-imagenes img {
+        width: 87%;
+        height: 323px;
+    }
+ }
+
+ @media (max-width: 300px) {
+    .seccion-categorias-imagenes img {
+        width: 92%;
+        height: 318px;
+    }
+    #boletin-informativo {
+        padding: 60px 3px;
+    }
+    #barra-ingreso-email{
+        margin-left: 13px;
+    }
+ }

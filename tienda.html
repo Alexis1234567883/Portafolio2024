@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tienda.css">
+</head>
+
+<body>
+
+  <!-- MENU PRINCIPAL -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid py-1">
+      <a class="navbar-brand" href="#">
+        <img src="img/img_tienda/logotipo-de-sky-rock.png" alt="" width="30" height="28">
+      </a>
+      <a class="titulo-hacemos navbar-brand" href="Inicio_tienda.html">HACEMOS MERCH</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="menu-principal" class="navbar-nav me-auto mb-2  mb-lg-0" style="font-size: 18px;">
+          <li class="nav-item">
+            <a class="texto-menu nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="texto-menu nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Polos</a></li>
+              <li><a class="dropdown-item" href="#">Poleras</a></li>
+              <li><a class="dropdown-item" href="#">Accesorios</a></li>
+              <li><a class="dropdown-item" href="#">Posters</a></li>
+              <li><a class="dropdown-item" href="#">Conciertos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Lo más Nuevo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="texto-menu nav-link" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="texto-menu nav-link" href="tienda.html">Informacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="texto-menu nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="boton-buscar btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--  SECCION FILTROS Y TIENDA CON PRODUCTOS  -->
+  <section class="bgwhite py-4">
+      <div class="container-fluid">
+            <div class="row">
+              <!-- SECCION LADO IZQUIERDO FILTROS -->
+                <div class="col-sm-12 col-md-3 col-lg-3 ">
+                    <div class="barra-lateral row ">
+                      <div class="col-6 col-sm-3 col-md-12">
+                        <h4 class="categoria-titulo p-b-7">Categorias</h4>
+                        <ul class="p-b-54">
+                            <li class="p-t-4">
+                                <a href="#" class="texto-categorias">Polos</a>
+                            </li>
+                            <li class="p-t-4">
+                                <a href="#" class="texto-categorias">Poleras</a>
+                            </li>
+                            <li class="p-t-4">
+                                <a href="#" class="texto-categorias">Accesorios</a>
+                            </li>
+                            <li class="p-t-4">
+                                <a href="#" class="texto-categorias">Zapatillas</a>
+                            </li>
+                            <li class="p-t-4">
+                                <a href="#" class="texto-categorias">Posters</a>
+                            </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="col-6 col-sm-5 col-md-12">
+                        <h4 class="filtros-titulo ">Filtros</h4>
+                        <div class="filtro-precio pt-3">
+                            <div class="wra-filter-bar">
+                                <div id="filter-bar">
+                                  <label  class="form-label fw-bold">Rango de Precio</label>
+                                  <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                                </div>
+                            </div>
+                            <div class="flex-sb-m flex-w p-t-16">
+                              <div class="s-text3 p-t-10 p-b-10">
+                                Rango: S/.<span id="value-lower">10</span> - S/.<span id="value-upper">200</span>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-sm-4 col-md-12">
+                        <div class="filtrar-color pb-1">
+                          <div class="pb-2 fw-bold">
+                              Marcas
+                          </div>
+                          <ul class="flex-w">
+                              <li>
+                                  <input id="" type="checkbox">
+                                  <label style="padding-left: 2px;" >Nike</label>
+                              </li>
+                              <li>
+                                <input id="" type="checkbox">
+                                <label style="padding-left: 2px;">HACEMOSMERCH</label>
+                              </li>
+                              <li>
+                                <input id="" type="checkbox">
+                                <label style="padding-left: 2px;">Converse</label>
+                              </li>
+                              <li>
+                                <input id="" type="checkbox">
+                                <label style="padding-left: 2px;">DC</label>
+                              </li>
+                          </ul>
+                        </div>
+                        <div class="boton-filtrar">
+                          <input type="button" value="Filtrar">
+                        </div>
+                      </div>
+                      
+                    </div>
+                </div>
+
+              <!-- SECCION PRODUCTOS LADO DERECHO -->
+              <div class="contenedor-mas-nuevo col-md-9  col-lg-9">
+                <div id="tarjeta-mas-nuevo" class="row justify-content-center">
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/CECI-01-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo C vs D</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>  
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/piloto-43-2020-600x600.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo G3</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/HACEMOSMERCH-TSHIRT-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo HCM</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/motormerch.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo MOTORMERCH</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+                </div>
+
+                <div id="tarjeta-mas-nuevo" class="row justify-content-center">
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/polo-hacemos-flag-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo H Flag</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Blanco</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>  
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/CONTRACORRIENTE-ANIQUILAR-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo ANIQUILAR</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/CONTRACORRIENTE-VENCEDOR-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo VENCEDOR</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-3 col-mx-2">
+                    <div class="card mb-sm-3 mb-md-4">
+                      <img src="img/img_tienda/Lo mas Nuevo/Futuro-robot-2017-194x194.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Polo FUTURO</h5>
+                        <h4 class="precio">S/45</h4>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Polo 100% Algodon</li>
+                        <li class="list-group-item">Color Negro</li>
+                      </ul>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+
+            </div>
+        </div>
+  </section>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid py-5 bg-black">
+      <div id="contenido-footer" class=" row mx-2 mx-md-2 mx-xl-5">
+        <div class="informacion col-12 col-sm-6 col-md-3 text-white ">
+          <h5>Información</h5>
+          <ul class="list-unstyled ">
+            <li><a class="text-decoration-none text-white" href="">Preguntas Frecuentes</a></li>
+            <li><a class="text-decoration-none text-white" href="">Retiro en Tienda</a></li>
+            <li><a class="text-decoration-none text-white" href="">Terminos y condiciones</a></li>
+            <li><a class="text-decoration-none text-white" href="">Cambios y devoluciones</a></li>
+            <li><a class="text-decoration-none" href=""><img src="img/img_tienda/footer/libro_de_reclamaciones.jpg" alt="" class="w-50 pt-3"></a></li>
+          </ul>
+        </div>
+        <div class="contactanos col-12 col-sm-6 col-md-3 text-white ">
+          <h5>Contactanos</h5>
+          <ul class="list-unstyled">
+            <li>contacto@hacemosmerch.com</li>
+            <li>Horario de Atencion:</li>
+            <li>L-V 9:00am- 6:00pm</li>
+          </ul>
+        </div>
+        <div class="seccion-pago col-12 col-sm-12 col-md-6 text-white ">
+          <h5>Medios de Pago</h5>
+            <div class="medios-pago-iconos row">
+              <img src="img/img_tienda/footer/visa.png" alt="" class="imagen-pago p-2">
+              <img src="img/img_tienda/footer/master_card.png" alt="" class="imagen-pago p-2">
+              <img src="img/img_tienda/footer/amazon_pay.png" alt="" class="imagen-pago p-2">
+              <img src="img/img_tienda/footer/interbank.jpg" alt="" class="imagen-pago p-2">
+              <img src="img/img_tienda/footer/yape.jpg" alt="" class="imagen-pago p-2">
+            </div>
+            <h5 style="margin-top: 33px;">Siguenos</h5>
+            <div class="row">
+              <div class="imagen-redes-sociales col-12">
+                <a href=""><img src="img/img_tienda/footer/facebook_corregido.png" alt="" class="imagen-pago p-2"></a>
+                <a href=""><img src="img/img_tienda/footer/instagram_corregido.png" alt="" class="imagen-pago p-2"></a>
+                <a href=""><img src="img/img_tienda/footer/whatsapp_corregido.png" alt="" class="imagen-pago p-2"></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,918 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+header{
+    width: 100%;
+    background-color: #033249;
+}
+#menu-principal{
+    width: 85%;
+    margin: 0px auto;
+    height: 110px; 
+    color:#FFFFFF;
+}
+#logo{
+    float: left;
+    width: 12%;
+    height: inherit;
+}
+.logo-img{
+    width: 130px;
+    height: 110px;
+}
+#menu{
+    float: left;
+    width: 73%;
+    text-align: center;
+    height: 110px;
+}
+#menu ul li{
+    font-size: 19px;
+    display: inline-block;
+    margin: 0px 27px 0px 8px;
+    letter-spacing: 1px;
+    line-height: 110px;
+}
+#menu ul li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 200ms;
+    font-weight: 500;
+}
+
+#menu ul li a:hover{
+    color: #FF8038;
+    transform: scale(1.2, 1.2);
+}
+#iconos{
+    float: right;
+    width: 15%;
+    line-height: 135px;
+    text-align: center;
+    height: inherit;
+}
+.icon{
+    width: 36px;
+    margin: 0px 2px 0px 2px;
+}
+
+
+/* TITULO PAGINA NUESTROS PROYECTOS*/
+h1{
+    margin: 60px 75px 42px 110px;
+    color: #033249;
+}
+
+
+/* FILTROS DE BUSQUEDA */
+.filtros_busqueda{
+    margin: 10px 90px 22px 90px;
+    padding: 30px 40px 30px 40px;
+    box-shadow: 0 0 6px 1px rgb(0 0 0 / 22%);
+}
+h2{
+    margin: 0px 10px 27px 0px;
+    color: #033249;
+}
+
+.buscar{
+    display: flex;
+    
+}
+.tipo{
+    display: block;
+    width: 19%;
+}
+.tipo select{
+    width: 163px;
+    font-size: 14px;
+    margin-top: 7px;
+    height: 37px;
+    padding: 6px;
+    border: 1px solid #bdbcbc;
+}
+.distrito{
+    display: block;
+    width: 19%;
+    
+}
+.distrito select{
+    width: 163px;
+    font-size: 14px;
+    margin-top: 7px;
+    height: 37px;
+    border: 1px solid #bdbcbc;
+}
+.precio{
+    width: 26%;
+}
+.prec{
+    width: 98px;
+    font-size: 14px;
+    margin-top: 7px;
+    height: 35px;
+    border: 1px solid #bdbcbc;
+    padding: 0px 6px;
+}
+.superficie{
+    width: 26%;
+}
+.superficie_desde input[type="number"]{
+    width: 85px;
+    font-size: 14px;
+    margin-top: 7px;
+    height: 35px;
+    border: 1px solid #bdbcbc;
+    padding: 0px 6px;
+}
+.label{
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.busqueda{
+    margin-top: 24px;
+}
+.lupa{
+    height: 40px;
+    width: 119px;
+    font-size: 15px;
+}
+
+
+
+
+/* PROYECTOS */
+.proyectos{
+    margin-top: 10px;
+}
+.proyectos_uno{
+    display: flex;
+    margin: 10px 90px 22px 90px;
+    padding: 17px 40px 17px 40px;
+    box-shadow: 0 0 6px 1px rgb(0 0 0 / 22%);
+}
+.imagen{
+    width: 43%;
+}
+.pro_img{
+    width: 100%;
+    height: 350px;
+}
+.descripcion{
+    width: 53%;
+    margin-left: 30px;
+}
+h3{
+    font-size: 27px;
+    margin: 25px 0px 10px 0px;
+    color: #033249;
+}
+.precio_proyecto{
+    font-size: 23px;
+    color: #eb3859;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.dep_casa{
+    font-size: 21px;
+    margin-top: 8px;
+    color: #00a49e;
+    font-weight: bold;
+}
+i{
+    margin-right: 7px;
+}
+.contiene{
+    display: flex;
+    margin-bottom: 12px;
+}
+.contiene p{
+    font-size: 17px;
+    color: #706f6f;
+    margin-right: 21px;
+}
+.parrafo-responsive{
+    display: none;
+}
+.desc{
+    display: flex;
+    margin-bottom: 14px;
+}
+.desc i{
+    margin: 5px 6px 0px 0px;
+    font-size: 25px;
+    color: #00a49e;
+}
+.contiene i{
+    font-size: 18px;
+}
+.titulo_segundo{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.descripcion_titulo{
+    font-size: 18px;
+}
+.ubicacion{
+    display: flex;
+    margin-bottom: 25px;
+}
+.ubicacion i{
+    font-size: 18px;
+}
+
+
+
+
+
+/* footer - pie de pagina  */
+#footer{
+    height: 265px;
+    background-color: #033249;
+    display: flex;
+    justify-content: center;
+}
+.abajo{
+    height: 265px; 
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-abajo{
+    width: 14%;
+}
+.logo-imagen-abajo {
+    width: 100%;
+    height: 132px;
+}
+.imag-abajo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.contactanos {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-top: 18px;
+}
+.escribenos {
+    display: flex;
+    justify-content: center;
+    width: 27%;
+}
+.oficina {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-left: 21px;
+}
+.titulo{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.parrafo-footer{
+    color: #ffffff;
+}
+
+
+
+
+/* RESPONSIVE */
+@media (max-width:1215px){
+    .filtros_busqueda {
+        margin: 10px 40px 22px 40px;
+        padding: 30px 40px 30px 40px;
+    }
+    .proyectos_uno {
+        display: flex;
+        margin: 10px 40px 22px 40px;
+        padding: 17px 40px 17px 40px;
+    }
+}
+
+@media (max-width:1140px){
+    #menu{
+        width: 73%;
+    }
+    #menu-principal {
+        width: 89%;
+    }
+
+    .imagen {
+        width: 45%;
+    }
+
+
+    .buscar{
+        flex-flow: row wrap;
+    }
+    .tipo {
+        display: block;
+        width: 20%;
+    }
+    .distrito {
+        display: block;
+        width: 20%;
+    }
+    .precio {
+        width: 29%;
+    }
+    .superficie {
+        width: 29%;
+    }
+
+
+    .abajo {
+        width: 95%;
+    }
+}
+
+
+@media (max-width:1028px){
+    
+    #menu-principal {
+        width: 98%;
+    }
+
+    .tipo {
+        width: 30%;
+    }
+    .distrito {
+        width: 30%;
+    }
+    .distrito select {
+        width: 188px;
+        font-size: 14px;
+        margin-top: 7px;
+        height: 37px;
+        border: 1px solid #bdbcbc;
+    }
+    .precio {
+        width: 38%;
+    }
+    .superficie {
+        width: 36%;
+        margin-top: 27px;
+    }
+    .busqueda {
+        margin-top: 51px;
+    }
+
+
+    .imagen {
+        width: 50%;
+    }
+    .descripcion {
+        width: 50%;
+        margin-left: 30px;
+    }
+    .proyectos_uno {
+        display: flex;
+        margin: 10px 40px 22px 40px;
+        padding: 16px 20px 17px 16px;
+    }
+
+
+    .abajo{
+        width: 100%;
+    }
+    .logo-abajo{
+        display: none;
+    }
+    .contactanos, .escribenos, .oficina {
+        width: 31%;
+    }
+}
+
+@media (max-width:900px){
+    #menu-principal {
+        width: 99%;
+        height: 200px;
+    }
+    #menu{
+        width: 87%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 92px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-left: -62px;
+    }
+    
+
+
+    h3 {
+        margin: 5px 0px 10px 0px;
+        color: #033249;
+    }
+    
+
+    .tipo {
+        width: 30%;
+    }
+    .distrito {
+        width: 33%;
+    }
+    .precio {
+        width: 36%;
+    }
+    .superficie {
+        width: 42%;
+        margin-top: 27px;
+    }
+}
+
+
+@media (max-width:880px){
+    .texto-encima {
+        top: 280px;
+        left: 45%;
+    }
+    #menu-principal {
+        width: 92%;
+        height: 200px;
+    }
+    #logo {
+        float: left;
+        width: 19%;
+        height: 110px;
+    }
+    #menu {
+        width: 80%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 89px;
+        float: left;
+        margin: auto;
+        height: 89px;
+    }
+
+
+    .pro_img {
+        width: 100%;
+        height: 310px;
+    }
+    .titulo_segundo {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .descripcion_titulo {
+        font-size: 16px;
+    }
+
+
+    .contactanos, .escribenos, .oficina {
+        width: 33%;
+    }
+}
+
+
+@media (max-width:850px){
+    #menu-principal {
+        width: 100%;
+        height: 253px;
+    }
+    #logo {
+        float: none;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 77px;
+        margin-left: 0px;
+        height: 78px;
+    }
+}
+
+
+
+@media (max-width:835px){
+    .tipo {
+        width: 50%;
+    }
+    .tipo select {
+        width: 218px;
+    }
+    .distrito {
+        width: 50%;
+    }
+    .distrito select {
+        width: 248px;
+    }
+    .precio {
+        width: 50%;
+        margin-top: 27px;
+    }
+    .superficie {
+        width: 50%;
+        margin-top: 27px;
+    }
+    .busqueda {
+        margin-top: 30px;
+    }
+    .lupa {
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+    .label{
+        margin-right: 39px;
+    }
+
+
+    h3 {
+        font-size: 24px;
+    }
+}
+
+
+
+@media (max-width:785px){
+    #menu-principal {
+        width: 100%;
+        height: 237px;
+    }
+    #logo {
+        float: none;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 65px;
+        margin-left: 2px;
+    }
+
+
+    #footer {
+        height: 380px;
+        display: block;
+    }
+    .abajo {
+        height: 356px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 73px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
+    .oficina{
+        margin: auto;
+    }
+}
+
+@media (max-width:780px){
+    .proyectos_uno {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 40px 22px 40px;
+        padding: 16px 44px 17px 44px;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .pro_img {
+        width: 100%;
+        height: 367px;
+    }
+    .descripcion {
+        width: 100%;
+        margin-left: 13px;
+    }
+}
+
+@media (max-width:710px){
+    .tipo {
+        width: 100%;
+    }
+    .tipo select {
+        width: 100%;
+    }
+    .distrito {
+        width: 100%;
+        margin-top: 27px;
+    }
+    .distrito select {
+        width: 100%;
+    }
+    .precio {
+        width: 100%;
+        margin-top: 27px;
+    }
+    .prec {
+        width: 45%;
+        margin-top: 7px;
+    }
+    .superficie {
+        width: 100%;
+        margin-top: 27px;
+    }
+    .superficie_desde input[type="number"] {
+        width: 44%;
+        margin-top: 7px;
+    }
+
+    .contactanos, .escribenos, .oficina {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:654px){
+    .prec {
+        width: 44%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 43%;
+    }
+}
+
+@media (max-width:618px){
+    .prec {
+        width: 44%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 43%;
+    }
+
+    .filtros_busqueda {
+        margin: 10px 30px 22px 30px;
+        padding: 30px 40px 30px 40px;
+    }
+
+    .proyectos_uno {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 30px 22px 30px;
+        padding: 16px 23px 17px 23px;
+    }
+    .descripcion {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width:583px){
+    .texto-encima {
+        top: 356px;
+        left: 19%;
+    }
+    #menu-principal {
+        width: 100%;
+        height: 281px;
+    }
+    #menu {
+        width: 100%;
+        height: 103px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 48px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 78px;
+        margin-left: 0px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 78px 10px 37px;
+        color: #033249;
+    }
+
+
+    .superficie_desde input[type="number"] {
+        width: 42%;
+    }
+}
+
+@media (max-width:576px){
+    #iconos {
+        width: 100%;
+        line-height: 81px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:542px){
+    .prec {
+        width: 43%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 41%;
+    }
+}
+
+@media (max-width:502px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+    .oficina {
+        margin: auto;
+        width: 81%;
+    }
+}
+
+@media (max-width:492px){
+    .prec {
+        width: 42%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 40%;
+    }
+
+    .proyectos_uno {
+        margin: 10px 18px 22px 18px;
+        padding: 16px 20px 17px 20px;
+    }
+}
+
+@media (max-width:452px){
+    .prec {
+        width: 41%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 38%;
+    }
+
+    .proyectos_uno {
+        margin: 10px 19px 22px 19px;
+        padding: 16px 10px 17px 10px;
+        box-shadow: 0 0 2px 1px rgb(0 0 0 / 14%);
+    }
+
+    .precio_proyecto {
+        font-size: 22px;
+    }
+    .desc i {
+        font-size: 21px;
+    }
+    .dep_casa {
+        font-size: 18px;
+        margin-top: 6px;
+    }
+    .contiene p {
+        font-size: 15px;
+        margin-right: 13px;
+    }
+    .ubicacion {
+        margin-bottom: 20px;
+    }
+    .titulo_segundo {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .descripcion_titulo {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:425px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+    .oficina {
+        margin: auto;
+        width: 72%;
+    }
+}
+
+@media (max-width:416px){
+    .filtros_busqueda {
+        margin: 10px 25px 22px 25px;
+        padding: 30px 18px 30px 18px;
+    }
+    .proyectos_uno {
+        margin: 10px 9px 22px 9px;
+    }
+}
+
+@media (max-width:360px){
+    .pro_img {
+        width: 100%;
+        height: 265px;
+    }
+    
+
+    .filtros_busqueda {
+        margin: 10px 15px 22px 15px;
+        padding: 30px 15px 30px 15px;
+    }
+
+
+    #footer {
+        height: 420px;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin: 119px 34px 14px 10px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin: 41px;
+    }
+    .oficina {
+        text-align: center;
+        width: 72%;
+        margin: 24px;
+    }
+
+    .contiene p {
+        display: none;
+    }
+    .parrafo-responsive{
+        display: block;
+        font-size: 17px;
+        color: #706f6f;
+        margin-right: 21px;
+    }
+}
+
+
+@media (max-width:320px){
+    .prec {
+        width: 38%;
+    }
+    .superficie_desde input[type="number"] {
+        width: 35%;
+    }
+}

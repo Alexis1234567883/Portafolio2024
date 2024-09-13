@@ -1,0 +1,163 @@
+/* MENU */
+
+.titulo-hacemos{
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.texto-menu:hover{ 
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transition: all 0.5s;
+    font-weight: bold;
+}
+#menu-principal li{
+    margin-right: 10px;
+}
+#menu-segundo ul{
+    text-decoration: none;
+    list-style: none;
+}
+.boton-buscar{
+    background-color: #8b8b8b;
+    color: white;
+    border-color: black;
+}
+.boton-buscar:hover{
+    background-color: #292929;
+    color: white;
+    border-color: black;
+}
+
+
+/* BARRA LATERAL */
+.barra-lateral{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.categoria-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.filtros-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.filtrar-color{
+    margin-top: 25px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.barra-lateral ul{
+    padding: 0px;
+}
+
+.texto-categorias {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #888888;
+    line-height: 1.8;
+}
+
+.filtro-precio{
+    border-top: 1px solid #e1e1e1;
+}
+
+
+
+
+
+/* FOOTER */
+.seccion-pago{
+    padding-left: 55px;
+}
+.imagen-pago{
+    width: 84px;
+}
+.imagen-redes-sociales{
+    padding: 0px;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+
+ }
+
+
+@media (max-width: 992px) {
+
+ }
+
+
+ @media (max-width: 768px) {
+    .filtros-titulo {
+        margin-top: 0px;
+    }
+    .filtrar-color{
+        margin-top: 0px;
+    }
+    
+    .seccion-pago {
+        padding-left: 17px;
+    }
+    .seccion-pago h5{
+        margin-top: 30px;
+    }
+    
+
+ }
+
+ @media (max-width: 576px) {
+    .barra-lateral{
+        margin: 0px 39px 30px 39px
+    }
+
+    .informacion{
+        text-align: center; 
+    }
+    .contactanos{
+        text-align: center;
+    }
+    .seccion-pago {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .medios-pago-iconos{
+        justify-content: center;
+    }
+
+ }
+
+
+ @media (max-width: 450px) {
+    .barra-lateral {
+        margin: 0px 0px 30px 0px;
+    }
+ }
+
+ @media (max-width: 380px) {
+
+ }
+
+ @media (max-width: 300px) {
+
+    
+ }

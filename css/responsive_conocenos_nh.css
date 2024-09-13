@@ -1,0 +1,467 @@
+@media (max-width:1300px){
+    .preferirnos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 44px 45px 65px 45px;
+    } 
+}
+
+@media (max-width:1172px){
+    #menu{
+        width: 73%;
+    }
+    #menu-principal {
+        width: 89%;
+    }
+    
+
+    .cuadro-trayectoria {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 79px;
+    }
+
+
+    .preferirnos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 44px 30px 65px 30px;
+    }
+
+    .abajo {
+        width: 99%;
+    }
+}
+
+
+@media (max-width:992px){
+    #menu-principal {
+        width: 98%;
+    }
+    
+
+    .quienes-somos {
+        width: 88%;
+    }
+
+
+    .contenido-experiencia {
+        border: 2px solid;
+        border-radius: 79px;
+        margin: 31px 62px;
+        padding: 33px;
+    }
+
+    .contenedor-mision-vision {
+        width: 100%;
+        display: flex;
+        padding: 80px 70px;
+        background-color: #F2F2F2;
+    }
+
+
+    .abajo{
+        width: 100%;
+    }
+    .logo-abajo{
+        display: none;
+    }
+    .contactanos, .escribenos, .oficina {
+        width: 31%;
+    }
+}
+
+
+@media (max-width:906px){
+    #menu-principal {
+        width: 99%;
+        height: 200px;
+    }
+    #menu{
+        width: 87%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 92px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-left: -62px;
+    }
+}
+
+
+@media (max-width:875px){
+    #menu-principal {
+        width: 92%;
+        height: 200px;
+    }
+    #logo {
+        float: left;
+        width: 19%;
+        height: 110px;
+    }
+    #menu {
+        width: 80%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 89px;
+        float: left;
+        margin: auto;
+        height: 89px;
+    }
+    
+
+    .img1 {
+        display: none;
+    }
+    .contenido-quienes-somos {
+        margin-left: 0px;
+    }
+
+
+    .cuadro-trayectoria {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 31px;
+        padding-bottom: 59px;
+    }
+    .contenido-experiencia {
+        border: 2px solid;
+        border-radius: 79px;
+        margin: 21px 28px;
+        padding: 30px;
+    }
+
+
+    .contactanos, .escribenos, .oficina {
+        width: 33%;
+    }
+}
+
+
+@media (max-width:850px){
+    #menu-principal {
+        width: 100%;
+        height: 253px;
+    }
+    #logo {
+        float: none;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 77px;
+        margin-left: 0px;
+        height: 78px;
+    }
+
+    
+
+
+    .imagen-casa-verde img{
+        width: 90%;
+    }
+
+
+    .preferirnos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 44px 30px 65px 30px;
+        justify-content: center;
+    }
+    .tarjeta {
+        width: 250px;
+        height: 320px;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 31px;
+        text-align: justify;
+    }
+}
+
+
+@media (max-width:810px){
+    #menu-principal {
+        width: 100%;
+        height: 237px;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 65px;
+        margin-left: 0px;
+        height: 61px;
+    }
+}
+
+
+
+@media (max-width:790px){
+    .cuadro-trayectoria {
+        margin: 0px 31px;
+        flex-direction: column;
+    }
+    .experiencia {
+        width: 100%;
+        text-align: center;
+    }
+    .contenido-experiencia {
+        margin: 20px 37px 38px 37px;
+        padding: 30px;
+    }
+    .experiencia-derecha {
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-experiencias {
+        margin: 0px 20px;
+        width: 23%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .icono-trayectoria {
+        margin: 10px 0px;
+    }
+    .icono-trayectoria img {
+        width: 68px;
+    }
+
+    .frase {
+        margin: 0px 13%;
+    }
+
+    .imagen-casa-verde img {
+        width: 100%;
+    }
+
+
+    .contenedor-mision-vision {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 80px 47px;
+    }
+    .mision {
+        width: 100%;
+        margin: 0px 0px 47px;
+    }
+    .vision {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    #footer {
+        height: 380px;
+        display: block;
+    }
+    .abajo {
+        height: 356px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 73px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
+    .oficina{
+        margin: auto;
+    }
+}
+
+
+@media (max-width:688px){
+    .contactanos, .escribenos, .oficina {
+        width: 100%;
+        text-align: center;
+    }
+
+    .preferirnos {
+        margin: 44px 10px 65px 10px;
+    }
+}
+
+
+@media (max-width:583px){
+    #menu-principal {
+        width: 100%;
+        height: 281px;
+    }
+    #menu {
+        width: 100%;
+        height: 103px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 48px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 78px;
+        margin-left: 0px;
+    }
+
+    .cuadro-trayectoria {
+        margin: 0px 10px;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:576px){
+    #iconos {
+        width: 100%;
+        line-height: 81px;
+        margin-left: 0px;
+    }
+    .icono-preferirnos {
+        width: 70px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+@media (max-width:502px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+}
+
+
+
+
+@media (max-width:425px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+
+    .experiencia-derecha {
+        width: 100%;
+        padding-left: 0px;
+        display: block;
+        justify-content: center;
+    }
+    .contenedor-experiencias {
+        margin: 0px 0px 32px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+
+    .oficina {
+        margin: auto;
+        width: 72%;
+    }
+}
+
+
+
+
+@media (max-width:360px){
+    #footer {
+        height: 420px;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin: 119px 34px 14px 10px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin: 41px;
+    }
+    .oficina {
+        text-align: center;
+        width: 72%;
+        margin: 24px;
+    }
+}
+
+@media (max-width:320px){
+    .titulo {
+        font-size: 17px;
+    }
+    .imag-abajo {
+        width: 39px;
+        height: 42px;
+        margin-right: 16px;
+    }
+    .formulario {
+        padding: 28px;
+    }
+}
+
+@media (max-width:290px){
+    .contenido-experiencia > h5 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+}

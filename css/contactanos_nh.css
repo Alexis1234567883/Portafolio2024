@@ -1,0 +1,639 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+header{
+    width: 100%;
+    background-color: #033249;
+}
+#menu-principal{
+    width: 85%;
+    margin: 0px auto;
+    height: 110px; 
+    color:#FFFFFF;
+}
+#logo{
+    float: left;
+    width: 12%;
+    height: inherit;
+}
+.logo-img{
+    width: 130px;
+    height: 110px;
+}
+#menu{
+    float: left;
+    width: 73%;
+    text-align: center;
+    height: 110px;
+}
+#menu ul li{
+    font-size: 19px;
+    display: inline-block;
+    margin: 0px 27px 0px 8px;
+    letter-spacing: 1px;
+    line-height: 110px;
+}
+#menu ul li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 200ms;
+    font-weight: 500;
+}
+
+#menu ul li a:hover{
+    color: #FF8038;
+    transform: scale(1.2, 1.2);
+}
+#iconos{
+    float: right;
+    width: 15%;
+    line-height: 135px;
+    text-align: center;
+    height: inherit;
+}
+.icon{
+    width: 36px;
+    margin: 0px 2px 0px 2px;
+    cursor: pointer;
+}
+
+/* BANNER */
+#banner img{
+    width: 100%;
+}
+.imagen-banner-responsive{
+    display: none;
+}
+
+/* SECCION CONTACTANOS */
+#contenedor-contactanos{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+#contactanos{
+    display: flex;
+    width: 80%;
+    background-color: aliceblue;
+}
+#contactate-nosotros{
+    margin: 80px 0px;
+    width: 49%;
+    font-weight: bold;
+    padding-right: 33px;
+}
+h2{
+    color: #033249;
+    font-size: 34px;
+    margin: 5px 0px 23px;
+    font-family: 'Roboto Slab', serif;
+}
+.descripcion{
+    margin: 47px 0px;
+}
+.oficina-principal, .callcenter, .ubicacion, .correo{
+    display: flex;
+    margin-bottom: 27px;
+}
+.oficina-principal, .callcenter, .ubicacion, .correo p{
+    font-size: 19px;
+    font-family: 'Nunito';
+    color: #033249;
+}
+i{
+    margin-right: 17px;
+    font-size: 23px;
+    color: #033249;
+}
+#mapa{
+    border: 2px solid black;
+}
+
+#formulario-derecho{
+    width: 49%;
+    margin-left: 15px;
+}
+.formulario{
+    width: 100%;
+    background:#033249;
+    padding: 35px;
+    margin: 85px auto;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    border: 1px solid #f59629;
+}
+
+
+.formulario h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #f59629;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #f59629;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.controll{
+    width: 100%;
+    height: 125px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #f59629;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.formulario p {
+    height: 50px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover{
+    color: rgb(236, 10, 10);
+    text-decoration: underline;
+}
+
+.formulario .boton{
+    width: 100%;
+    background: #f59629;
+    border: none;
+    padding: 11px;
+    color: white;
+    margin: 16px 0;
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* footer - pie de pagina  */
+#footer{
+    height: 265px;
+    background-color: #033249;
+    display: flex;
+    justify-content: center;
+}
+.abajo{
+    height: 265px; 
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-abajo{
+    width: 14%;
+}
+.logo-imagen-abajo {
+    width: 100%;
+    height: 132px;
+}
+.imag-abajo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.contactanos {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-top: 18px;
+}
+.escribenos {
+    display: flex;
+    justify-content: center;
+    width: 27%;
+}
+.oficina {
+    display: flex;
+    width: 27%;
+    justify-content: center;
+    margin-left: 21px;
+}
+.titulo{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.parrafo-footer{
+    color: #ffffff;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+
+
+
+
+
+@media (max-width:1172px){
+    .texto-encima {
+        left: 60%;
+    }
+    #menu{
+        width: 73%;
+    }
+    #menu-principal {
+        width: 89%;
+    }
+    .abajo {
+        width: 95%;
+    }
+}
+
+@media (max-width:992px){
+
+    #menu-principal {
+        width: 98%;
+    }
+    
+    #contactanos {
+        display: flex;
+        width: 87%;
+    }
+
+    .abajo{
+        width: 100%;
+    }
+    .logo-abajo{
+        display: none;
+    }
+    .contactanos, .escribenos, .oficina {
+        width: 31%;
+    }
+}
+
+
+@media (max-width:906px){
+    
+    #menu-principal {
+        width: 99%;
+        height: 200px;
+    }
+    #menu{
+        width: 87%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 92px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-left: -62px;
+    }
+    
+}
+
+@media (max-width:875px){
+    #menu-principal {
+        width: 92%;
+        height: 200px;
+    }
+    #logo {
+        float: left;
+        width: 19%;
+        height: 110px;
+    }
+    #menu {
+        width: 80%;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 89px;
+        float: left;
+        margin: auto;
+        height: 89px;
+    }
+
+    #contactanos {
+        display: flex;
+        width: 95%;
+    }
+    
+    
+    .contactanos, .escribenos, .oficina {
+        width: 33%;
+    }
+}
+
+
+
+@media (max-width:850px){
+    #menu-principal {
+        width: 100%;
+        height: 253px;
+    }
+    #logo {
+        float: none;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 77px;
+        margin-left: 0px;
+        height: 78px;
+    }
+}
+
+
+
+
+@media (max-width:810px){
+
+    #menu-principal {
+        width: 100%;
+        height: 237px;
+    }
+    #menu {
+        width: 100%;
+        height: 65px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 54px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 65px;
+        margin-left: 0px;
+        height: 61px;
+    }
+}
+
+
+@media (max-width:790px){  
+
+    #contactanos {
+        display: flex;
+        width: 91%;
+        flex-direction: column;
+        text-align: center;
+    }
+    #contactate-nosotros {
+        margin: 47px 0px;
+        width: 100%;
+        font-weight: bold;
+        padding-right: 0px;
+    }
+    .oficina-principal, .callcenter, .ubicacion, .correo {
+        display: flex;
+        margin-bottom: 27px;
+        justify-content: center;
+    }
+    #formulario-derecho {
+        width: 70%;
+        margin: auto;
+    }
+    .formulario {
+        width: 100%;
+        margin: 22px 0px 58px 0px;
+    }
+
+
+
+    #footer {
+        height: 380px;
+        display: block;
+    }
+    .abajo {
+        height: 356px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 73px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
+    .oficina{
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width:688px){
+
+    #formulario-derecho {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contactanos, .escribenos, .oficina {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:583px){
+    #menu-principal {
+        width: 100%;
+        height: 281px;
+    }
+    #menu {
+        width: 100%;
+        height: 103px;
+    }
+    #menu ul li {
+        display: inline-block;
+        line-height: 48px;
+    }
+    #iconos {
+        width: 100%;
+        line-height: 78px;
+        margin-left: 0px;
+    }
+    .imagen-banner{
+        display: none;
+    }
+    .imagen-banner-responsive{
+        display: block;
+    }
+
+}
+
+@media (max-width:576px){
+    #iconos {
+        width: 100%;
+        line-height: 81px;
+        margin-left: 0px;
+    }
+
+    #formulario-derecho {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media (max-width:502px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+
+    #formulario-derecho {
+        width: 93%;
+        margin: auto;
+    }
+
+    .oficina{
+        width: 81%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:425px){
+    #menu-principal {
+        width: 100%;
+        height: 418px;
+    }
+    #menu {
+        width: 100%;
+        height: 218px;
+        margin-top: 18px;
+    }
+    #menu ul li{
+        display: block;
+        margin: auto;
+    }
+    #menu ul li a{
+        margin: auto;
+    }
+    #iconos{
+        height: 54px;
+    }
+
+    #formulario-derecho {
+        width: 98%;
+        margin: auto;
+    }
+
+    .oficina {
+        margin: auto;
+        width: 72%;
+    }
+}
+
+
+@media (max-width:360px){
+
+    #footer {
+        height: 420px;
+    }
+    .contactanos {
+        display: flex;
+        justify-content: center;
+        margin: 119px 34px 14px 10px;
+    }
+    .escribenos {
+        display: flex;
+        justify-content: center;
+        margin: 41px;
+    }
+    .oficina {
+        text-align: center;
+        width: 72%;
+        margin: 24px;
+    }
+    .formulario {
+        padding: 19px;
+    }
+}
+
+
+@media (max-width:320px){
+    .oficina-principal, .callcenter, .ubicacion, .correo p {
+        font-size: 15px;
+    }
+    .formulario h4 {
+        font-size: 18px;
+    }
+    .formulario {
+        padding: 24px 13px;
+    }
+
+
+    .titulo {
+        font-size: 17px;
+    }
+    .imag-abajo {
+        width: 39px;
+        height: 42px;
+        margin-right: 16px;
+    }
+    .formulario {
+        padding: 28px;
+    }
+}
